@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html
+     lang="es-AR"
+     dir="ltr"
+>
+	<head>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="robots" content="noindex">
+                
+        <!--Open Graph-->
+        <!-- <meta property="og:title" content="M. Ciafardini" /> -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.regularhexahedron.github.io/" />
+                
+        <!--Bootstrap 5.3.0 (CSS and JS)-->
+        <link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous">
+		</script>
+
+        <!--Stylesheets-->
+		<link rel="stylesheet" href="styles-css/main.css">
+		<link rel="stylesheet" href="styles-css/fs-responsive.css">
+        
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap">
+       
+       	<!--Font Awsome-->
+		<script src="https://kit.fontawesome.com/637e9a37fd.js" crossorigin="anonymous"></script>
+       
+        
+		<title>M. Ciafardini</title>
+         
+	</head>
+	
+<body>
+
+    <!-- Site Header / Navbar -->
+    <header id="SiteHeader">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <span class="navbar-brand">
+                    <!--<a href="index.html"><img class="img-fluid" src="images/Logo.png" alt="Logo." width="100%"></a>-->
+                </span>
+                <button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link disabled" aria-disabled="true" tabindex="-1">Site 2</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="index.html" id="navbarDropdown" class="nav-link dropdown-toggle disabled" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" aria-disabled="true">
+                                Site 3
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="#" class="dropdown-item disabled" aria-disabled="true" tabindex="-1">Site 3.1</a></li>
+                                <li><a href="#" class="dropdown-item disabled" aria-disabled="true" tabindex="-1">Site 3.2</a></li>
+                                <li><a href="#" class="dropdown-item disabled" aria-disabled="true" tabindex="-1">Site 3.3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link disabled" aria-disabled="true" tabindex="-1">Site 4</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+		<!-- CV Section -->
+		<section class="container my-4 section-card">
+			<h5 class="mb-3 text-center">Curriculum Vitae</h5>
+			<div class="d-flex justify-content-center gap-3 flex-wrap">
+				<a href="res/CV_Professional-Ciafardini.pdf" download="CV_Professional" class="btn btn-outline-info">
+					Professional CV <i class="fa-solid fa-file-pdf"></i>
+				</a>
+				<a href="res/CV_Academic-Ciafardini.pdf" download="CV_Academic" class="btn btn-outline-info">
+					Academic CV <i class="fa-solid fa-file-pdf"></i>
+				</a>
+			</div>
+		</section>
+
+		<!-- GitHub Section -->
+		<section class="container my-4 section-card">
+			<h5 class="mb-3 text-center">Selected GitHub Projects</h5>
+			<div class="row row-cols-1 row-cols-md-2 g-4">
+				<div class="col">
+					<div class="card h-100">
+						<div class="card-body">
+							<h5 class="card-title">
+								<a href="https://github.com/RegularHexahedron/fin.ph" target="_blank">
+									<i class="fab fa-github me-1"></i> fin.ph
+								</a>
+							</h5>
+							<p class="card-text">Notebooks reproducing diffusion simulations.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card h-100 card-inprogress">
+						<div class="card-body">
+							<h5 class="card-title">
+								<i class="fab fa-github me-1"></i> _inProgress
+							</h5>
+							<p class="card-text">In progress...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+    </main>
+
+</body>
+</html>

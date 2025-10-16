@@ -1,0 +1,44 @@
+html {
+    font-size: clamp(15px, calc(15px + 0.390625vw), 18px);
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: #fffde9;
+    color: #333;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.section-card {
+    border: 2px solid #b0b0b0;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-title {
+    font-weight: 500;
+}
+
+.card-inprogress {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border-color: #dee2e6;
+    opacity: 0.8;
+}
+.card-inprogress a {
+    pointer-events: none;
+    color: inherit;
+    text-decoration: none;
+}
